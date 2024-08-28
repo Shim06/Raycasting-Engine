@@ -19,13 +19,15 @@ This is a simple implementation of a raycasting engine made in C++ with SDL2.
 
 `Mouse` - Look left or right
 
+`Escape` - Exit
+
 ## How to build
 
 1. Clone the Repository 
 ```
 git clone https://github.com/Shim06/Raycasting-Engine.git
 ```
-2. Open Raycasting Engine.sln with Visual Studio
+2. Open `Raycasting Engine.sln` with Visual Studio
 3. Configure the Project
 - Under Configuration Properties, ensure the correct Configuration (Debug or Release) and Platform (x64 or Win32) are selected.
 
