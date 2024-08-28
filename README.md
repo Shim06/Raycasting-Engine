@@ -8,6 +8,17 @@ This is a simple implementation of a raycasting engine made in C++ with SDL2.
 2. Extract the contents.
 3. Run `Raycasting Engine.exe` to start the program.
 
+## Controls
+`W` - Move forward
+
+`A` - Strafe left
+
+`S` - Move backward
+
+`D` - Strafe right
+
+`Mouse` - Look left or right
+
 ## How to build
 
 1. Clone the Repository 
