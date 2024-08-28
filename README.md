@@ -1,6 +1,6 @@
 # Raycasting Engine
 
-This is a simple implementation of a raycasting engine made in C++ with SDL2. 
+This is a simple implementation of a raycasting engine made in C++ with SDL2. The engine features wall raycast rendering, floor and ceiling raycast rendering, and sprite raycast rendering.
 
 ## Getting Started
 
