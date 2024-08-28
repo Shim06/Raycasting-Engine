@@ -2,6 +2,8 @@
 
 This is a simple implementation of a raycasting engine made in C++ with SDL2. The engine features wall raycast rendering, floor and ceiling raycast rendering, and sprite raycast rendering.
 
+![Raycasting Engine](https://github.com/user-attachments/assets/4c2cdab6-2d20-404d-a9bf-879f1acc8cc7)
+
 ## Getting Started
 
 1. Download the RAR file from the releases section.
