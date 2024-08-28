@@ -56,7 +56,7 @@ int main(int, char**)
     {
         if (texture[i] == nullptr) 
         {
-            printf("Error: Failed to load texture %zu: %s\n", i, IMG_GetError());
+            std::cout << ("Error: Failed to load texture %zu: %s\n", i, IMG_GetError());
             return -1;
         }
     }
@@ -64,7 +64,7 @@ int main(int, char**)
     // Load sprite textures
     SDL_Texture* frame = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_STREAMING, screen_width, screen_height);
     if (!frame) {
-        std::cerr << "Unable to create texture! SDL_Error: " << SDL_GetError() << std::endl;
+        std::cout << "Unable to create texture! SDL_Error: " << SDL_GetError();
         SDL_DestroyRenderer(renderer);
         SDL_DestroyWindow(window);
         SDL_Quit();
@@ -97,7 +97,7 @@ int main(int, char**)
         current_time = SDL_GetTicks();
         frame_time = (current_time - old_time) / 1000.0;
         old_time = current_time;
-        std::cout << "FPS: " << 1.0 / frame_time << "\n";
+       //std::cout << "FPS: " << 1.0 / frame_time << "\n";
     }
 
     SDL_DestroyRenderer(renderer);
