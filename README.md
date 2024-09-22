@@ -6,7 +6,7 @@ This is a simple implementation of a raycasting engine made in C++ with SDL2. Th
 
 ## Getting Started
 
-1. Download the RAR file from the releases section.
+1. Download the latest zip file from the releases section.
 2. Extract the contents.
 3. Run `Raycasting Engine.exe` to start the program.
 
@@ -41,8 +41,6 @@ Click Build Solution or press `Ctrl+Shift+B` to start the build process.
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 ## License
 
